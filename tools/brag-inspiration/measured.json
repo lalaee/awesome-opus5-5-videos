@@ -1,0 +1,275 @@
+{
+ "1littlecoder-378066": {
+  "cuts_per_10s": 1.0,
+  "height": 720,
+  "seconds": 30.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "abhinayguptha-259981": {
+  "cuts_per_10s": 0.5,
+  "height": 720,
+  "seconds": 20.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "advait-jayant-712107": {
+  "cuts_per_10s": 4.0,
+  "height": 720,
+  "seconds": 20.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "alex-prompter-997524": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 34.5,
+  "sound": "none",
+  "width": 1280
+ },
+ "annacher-433425": {
+  "cuts_per_10s": 0.0,
+  "height": 1280,
+  "seconds": 42.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "bilimfili1-459762": {
+  "cuts_per_10s": 0.0,
+  "height": 1280,
+  "seconds": 50.0,
+  "sound": "yes",
+  "width": 720
+ },
+ "charlesmendez-476517": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 57.0,
+  "sound": "yes",
+  "width": 1280
+ },
+ "dale-vaz-879074": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 47.0,
+  "sound": "none",
+  "width": 1280
+ },
+ "deedydas-252537": {
+  "cuts_per_10s": 0.8,
+  "height": 720,
+  "seconds": 26.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "deifosv-786581": {
+  "cuts_per_10s": 7.3,
+  "height": 720,
+  "seconds": 30.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "felipemoller-936736": {
+  "cuts_per_10s": 0.0,
+  "height": 1280,
+  "seconds": 30.1,
+  "sound": "yes",
+  "width": 720
+ },
+ "gdgtify-929495": {
+  "cuts_per_10s": 0.0,
+  "height": 1080,
+  "seconds": 20.0,
+  "sound": "none",
+  "width": 1080
+ },
+ "howdevelop-733090": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 30.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "hqmank-241156": {
+  "cuts_per_10s": 0.9,
+  "height": 720,
+  "seconds": 23.0,
+  "sound": "yes",
+  "width": 1280
+ },
+ "iammxfschr-955831": {
+  "cuts_per_10s": 1.5,
+  "height": 720,
+  "seconds": 32.7,
+  "sound": "yes",
+  "width": 1280
+ },
+ "jackfriks-338762": {
+  "cuts_per_10s": 0.5,
+  "height": 1280,
+  "seconds": 19.6,
+  "sound": "yes",
+  "width": 720
+ },
+ "jake11moran-414633": {
+  "cuts_per_10s": 1.5,
+  "height": 720,
+  "seconds": 27.1,
+  "sound": "silent",
+  "width": 1280
+ },
+ "jhylee95-452427": {
+  "cuts_per_10s": 8.0,
+  "height": 720,
+  "seconds": 23.9,
+  "sound": "yes",
+  "width": 1280
+ },
+ "johnsavage-ai-427263": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 20.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "justincooperman-188876": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 30.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "kamstudiolabs-877996": {
+  "cuts_per_10s": 0.1,
+  "height": 720,
+  "seconds": 90.0,
+  "sound": "yes",
+  "width": 1280
+ },
+ "kloss-xyz-941143": {
+  "cuts_per_10s": 4.6,
+  "height": 1280,
+  "seconds": 153.6,
+  "sound": "yes",
+  "width": 720
+ },
+ "kmasiff-549880": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 20.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "mattbean-917572": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 30.0,
+  "sound": "none",
+  "width": 1280
+ },
+ "maxalexweber-459784": {
+  "cuts_per_10s": 2.8,
+  "height": 720,
+  "seconds": 18.0,
+  "sound": "yes",
+  "width": 1280
+ },
+ "moritzkremb-466494": {
+  "cuts_per_10s": 0.7,
+  "height": 720,
+  "seconds": 46.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "nikolajankovic-616097": {
+  "cuts_per_10s": 0.0,
+  "height": 848,
+  "seconds": 58.0,
+  "sound": "none",
+  "width": 1280
+ },
+ "parkerrex-701462": {
+  "cuts_per_10s": 0.0,
+  "height": 1080,
+  "seconds": 18.0,
+  "sound": "none",
+  "width": 1080
+ },
+ "reflex-cloud-304046": {
+  "cuts_per_10s": 9.3,
+  "height": 720,
+  "seconds": 15.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "robvjourney-237474": {
+  "cuts_per_10s": 5.3,
+  "height": 720,
+  "seconds": 15.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "sachaarbonel-673648": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 59.0,
+  "sound": "yes",
+  "width": 1280
+ },
+ "souravbhar871-477361": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 10.0,
+  "sound": "none",
+  "width": 1280
+ },
+ "supremebeme-306746": {
+  "cuts_per_10s": 5.9,
+  "height": 1280,
+  "seconds": 46.0,
+  "sound": "yes",
+  "width": 720
+ },
+ "techhalla-498547": {
+  "cuts_per_10s": 0.0,
+  "height": 1080,
+  "seconds": 20.1,
+  "sound": "silent",
+  "width": 1080
+ },
+ "verbove-268381": {
+  "cuts_per_10s": 0.0,
+  "height": 1280,
+  "seconds": 20.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "viktoroddy-402509": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 54.3,
+  "sound": "none",
+  "width": 1280
+ },
+ "visheshbaghell-119508": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 81.0,
+  "sound": "yes",
+  "width": 1280
+ },
+ "wani-shola-459278": {
+  "cuts_per_10s": 0.4,
+  "height": 720,
+  "seconds": 102.1,
+  "sound": "yes",
+  "width": 1280
+ },
+ "xelandre-687413": {
+  "cuts_per_10s": 0.0,
+  "height": 720,
+  "seconds": 30.1,
+  "sound": "yes",
+  "width": 1280
+ }
+}

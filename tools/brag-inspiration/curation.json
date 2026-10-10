@@ -1,212 +1,253 @@
 {
   "tones": {
-    "default": "Punchy, playful, clean. Small stories and one clear flow.",
-    "polished": "Serious and restrained. Continuity, real UI, long holds.",
-    "yc-parody": "The startup-launch genre that yc-parody plays straight. Learn the conventions so you can deliver them with a straight face.",
-    "chaotic": "Fast and loud, but still edited. The good ones lock the message and make the frame go wild.",
-    "deadpan": "Calm, dry, text-forward. The premise is the joke; the delivery never winks.",
-    "cinematic": "Trailer scale. Borrow a film genre or a famous ad, then add a finishing layer.",
-    "app-store": "Feature-by-feature, real screens, clear user flow."
+    "default": "Punchy, playful, clean. A small story or one clear flow, hook readable in the first second or so.",
+    "polished": "Serious and restrained. Real UI, continuity instead of cuts, calm holds.",
+    "yc-parody": "The startup-launch genre that yc-parody plays straight. Learn its conventions so you can deliver them with a straight face.",
+    "chaotic": "Fast and loud, but still edited. The good ones lock the message and let the frame go wild.",
+    "deadpan": "Calm, dry, literal. The premise is the joke; the delivery never winks.",
+    "cinematic": "Trailer scale. A film genre or a famous ad as the frame, one recurring motif, a look that is part of the idea.",
+    "app-store": "Feature by feature: one headline, one real screen, one claim per scene."
   },
   "examples": [
     {
       "slug": "hqmank-241156",
       "tone": "default",
       "quote": "like it's the hero video on its GitHub README",
-      "borrow": "Name where the video will live; it sets length, framing and loop. The project's own three-beat tagline ('Give a site. Write a goal. Jev clicks.') was already the storyboard."
+      "seen": "The project's tagline stacks in huge condensed type, line by line, readable by 1.5 s; a cursor click-ring lands on \"CLICKS.\". Then the real command typed in a terminal, the agent driving a browser, and an end card with a copyable git clone command.",
+      "borrow": "When the project has a three-beat tagline, it is both the hook and the storyboard. End on the real install command, not a slogan."
     },
     {
       "slug": "jackfriks-338762",
       "tone": "default",
       "quote": "use the pig assets on new branch of lovelee to make a 9:16 short story animation",
-      "borrow": "A tiny story starring the project's own characters and assets, with the app teased only at the end. Works when the product has a mascot or illustrations."
-    },
-    {
-      "slug": "mattbean-917572",
-      "tone": "default",
-      "quote": "1. connect your agent 2. your agent fills out your listing and sets up redemption 3. go live!",
-      "borrow": "When the product is a three-step flow, the three steps are the three highlights. Nothing else needed."
+      "seen": "A story caption is on screen from frame 0, the app's own pig and cat act it out, and a running counter escalates (x1, x7, x33) as the joke. The app appears only at 16.8 s, as an App Store end card.",
+      "borrow": "A tiny story with the product's own characters, and a counter that escalates. Tease the app at the end, not the start."
     },
     {
       "slug": "justincooperman-188876",
       "tone": "default",
       "quote": "users ask for branded images and see them added to content",
-      "borrow": "Show the output landing in its real context (the post, the page), not floating on a gradient."
+      "seen": "The problem as a question (\"Need an on-brand image for your next email?\") by 0.5 s. Then the real flow: ask in chat, the image is made, it lands in the email. A small caption pill at the bottom names each step. Ends on logo, one line and a button.",
+      "borrow": "Show the output landing where it gets used. One short caption pill per step."
+    },
+    {
+      "slug": "mattbean-917572",
+      "tone": "default",
+      "quote": "1. connect your agent 2. your agent fills out your listing and sets up redemption 3. go live!",
+      "seen": "Hand-drawn style. A handwritten title types in and is only readable at about 2.5 s; then each of the three numbered steps draws a sketched screen, ending on a URL.",
+      "borrow": "A three-step flow is three scenes. But get the opening line readable by 1.5 s; this one is slow."
     },
     {
       "slug": "visheshbaghell-119508",
       "tone": "default",
       "quote": "build me a product demo for my site using /brag skill. make sure to emphasize on all features",
-      "borrow": "A /brag run in the wild. Note the ask was 'all features'; still pick the 2-3 that carry the story and let the rest go."
-    },
-    {
-      "slug": "annacher-433425",
-      "tone": "polished",
-      "quote": "build a product promo from our own UI, not generic components",
-      "borrow": "One element that never cuts: it morphs from state to state, driven by a cursor with real clicks and drags, the camera zooming so each state fills the frame, last frame equal to the first so it loops. Everything computed in seek(t). Adapted from @twoclipping's widely remixed UI-states prompt."
+      "seen": "A /brag run in the wild. Strong problem hook (\"One job. Two documents.\") by 1.5 s, then real app screens and one big stat. But it runs 81 s, far past /brag's 15-25 s.",
+      "borrow": "State the problem in two short sentences. And when asked for every feature, still cut to the 2-3 that fit 15-25 s."
     },
     {
       "slug": "verbove-268381",
       "tone": "polished",
       "quote": "Content enters after its container starts morphing and leaves before the next morph so text never overlaps",
-      "borrow": "The fix for muddy transitions, plus 'Real UI. Real data. No placeholders.' and 'First render one frame per beat as a contact sheet' before the full render."
+      "seen": "One dark pill morphs through the product: logo, button, field, card, globe, pin, list, event card, search, logo again, so it loops. Real copy in every state (\"Put me on the map\"), warm off-white canvas with a soft vignette. The element stays small on a big canvas.",
+      "borrow": "One element that never cuts, real copy in every state, a loop. Zoom in closer than this did; the element should fill more of the frame."
+    },
+    {
+      "slug": "annacher-433425",
+      "tone": "polished",
+      "quote": "build a product promo from our own UI, not generic components",
+      "seen": "The same one-shape morph, driven by a cursor through connect, loader, budget slider, chart, prompt bar and a toast, back to the start. Calm, no cuts. But it runs 42 s where the prompt asked for 7 bars (14 s), and the frame is mostly empty.",
+      "borrow": "A cursor driving every change makes UI feel used, not shown. Hold the length you planned; a morph sequence drifts long."
     },
     {
       "slug": "howdevelop-733090",
       "tone": "polished",
       "quote": "The story must also work muted.",
-      "borrow": "Premium developer-tool launch film: exactly 15s, important content kept inside a 9:16-safe centre so one render crops to every platform, sound that resolves on the final frame."
+      "seen": "A question types word by word and is complete by 1.0 s (\"What can one AI API become?\"). One continuous dashed line threads every scene, and each visual has a 2-4 word caption under it (\"One pattern. Every modality.\"). No hard cuts. Asked for 15 s, it runs 30.",
+      "borrow": "A short caption under every visual makes it work muted. A single line or path that links scenes replaces cuts."
     },
     {
-      "slug": "dale-vaz-879074",
+      "slug": "iammxfschr-955831",
       "tone": "polished",
-      "quote": "start with a single dot on a black screen and then have multiple windows show up",
-      "borrow": "A scale journey for dense, multi-panel products: dot to full desktop, zoom out until it is a point in space, back in on mobile, end on the one-line promise."
+      "quote": "so a la anthropic like?",
+      "translation": "kind of like Anthropic?",
+      "seen": "Warm off-white, a serif statement (\"Open a URL.\") by 0.5 s, then one real screen per claim: the database table, an accent-colour picker (\"Make it yours.\"), a terminal update (\"Updates in one command.\"). Ends \"Self-hosted. $79 once. Source code included.\" with logo and URL.",
+      "borrow": "Quiet serif headlines next to real screens, one claim each. End on the terms that matter (price, licence) in one line."
     },
     {
-      "slug": "wani-shola-459278",
+      "slug": "sachaarbonel-673648",
       "tone": "polished",
-      "quote": "Use only facts and numbers that are on the site.",
-      "borrow": "Premium brand rules in one list: three colours and the site's own fonts, one idea per shot, key objects centred, eased motion only, cut on the beat."
+      "quote": "Create a professional product launch video with motion graphics.",
+      "seen": "The version made after the creator's harsh feedback. Pastel gradient, serif lines stacking by 1.5 s (\"The same reports. / The same price checks. / The same hours, gone.\"), then a headline beside a UI card per beat, with long holds. Ends on logo, a line and a waitlist button. It runs 59 s.",
+      "borrow": "Three stacked short lines make a calm problem hook. Slow holds read as expensive; cut scenes to fit 15-25 s rather than speeding them up."
     },
     {
       "slug": "moritzkremb-466494",
       "tone": "yc-parody",
       "quote": "very professionally edited, motion-graphics-styled product launch videos that you see people making on Twitter",
-      "borrow": "The reference genre itself; 8 videos in the collection start from this prompt. Feature, benefit, feature, logo, all with real assets. Deliver these conventions dead straight and the parody does itself."
+      "seen": "It picked Notion. The problem as scattered tools (\"Docs here. Chats there.\" with Slack, Gmail and GitHub icons drifting in) by 1.5 s, then product screens, a logo wall with stats, and logo plus button. 46 s; 8 videos in the collection reuse this prompt.",
+      "borrow": "The genre's skeleton: scattered-tools problem, product as the one place, proof, logo. Deliver it straight and the parody does itself."
     },
     {
       "slug": "deedydas-252537",
       "tone": "yc-parody",
       "quote": "make a modern slick and punchy video for a modern startup that works on inference",
-      "borrow": "Fifteen words that two other creators reused in their own prompts. When the register is clear (slick, punchy, modern startup) the brief can be tiny; spend the effort on the claim, not the adjectives."
+      "seen": "The hook acts out the pain: a prompt types, \"Thinking...\" appears, and a wait timer ticks from 0.08 s to 2.57 s. Then \"Most of inference is waiting.\" / \"Not anymore.\", a utilisation grid going 31% to 94%, a throughput number, ends on the name and \"done.\".",
+      "borrow": "Make the viewer feel the pain for two seconds with a running timer, then flip it. One number per beat."
     },
     {
       "slug": "viktoroddy-402509",
       "tone": "yc-parody",
       "quote": "just hit 1 million monthly visitors after 8 months after launch",
-      "borrow": "One milestone number as the spine of the whole video. Only use it if the project actually states it."
+      "seen": "Frame 0 is a tilted wall of real site thumbnails, so the hook is density. Then \"One command. No API key.\", \"Today, we hit\" and a huge \"1,000,000\", ending on \"1M and counting.\" and the URL. 54 s, no sound.",
+      "borrow": "Open on a wall of the real product output. One milestone number as the turn, only if the project states it."
     },
     {
-      "slug": "kmasiff-549880",
+      "slug": "jhylee95-452427",
       "tone": "yc-parody",
-      "quote": "inspiration is yc videos and claude social videos",
-      "borrow": "Naming the genre you are imitating does more than a list of adjectives."
+      "quote": "hook in the first second, then distinct beats for product proof and AI",
+      "seen": "One feature verb per beat in huge type, about 8 cuts per 10 s, each word sprouting a bit of product UI: \"click.\" grows a tour tooltip, \"embed.\" an iframe snippet, \"as a demo.\" the real demo. Ends \"always on.\" with \"Agent online - 3:12 AM\".",
+      "borrow": "One verb per beat, each turning into a piece of the real product. Fast, but every word is readable."
     },
     {
       "slug": "techhalla-498547",
       "tone": "chaotic",
       "quote": "Magenta/green may misregister (print offset) by 2–4px on impact frames only.",
-      "borrow": "Chaos with rules: a locked six-line message in exact order, a strict three-colour palette, three typefaces with fixed jobs, glitches only on impact frames, a 'STOP SCROLLING' cold open, and a loop."
+      "seen": "\"STOP SCROLLING\" builds letter by letter in huge condensed type and is complete by 2.0 s, over a green waveform baseline. One locked line per beat, glitches only on impact, ends on the handle and loops. No sound in the file.",
+      "borrow": "Chaos with rules: locked lines in a fixed order, a strict palette, glitches only on impact frames."
     },
     {
       "slug": "kloss-xyz-941143",
       "tone": "chaotic",
       "quote": "chaotic brain rot video with excellent motion + sound design",
-      "borrow": "Chaotic still needs a real mix. Vertical, relentless, but the sound is designed, not stacked."
+      "seen": "Vertical. \"you hit enter.\" types, then a giant red \"I WAS BORN.\" by 1.0 s. The rest is a long typographic monologue; it runs 154 s.",
+      "borrow": "Only the opening: a typed line, then one enormous word slammed in within a second."
     },
     {
       "slug": "supremebeme-306746",
       "tone": "chaotic",
       "quote": "make a brainrot video about the terminal. i can't escape it.",
-      "borrow": "The chaos comes from a relatable confession about the product, not from random effects."
+      "seen": "\"DAY 47\" with a pixel character trapped in a terminal above a slot machine labelled \"ONE MORE PROMPT\" (reels: LGTM, MORE, WORKS), about 6 cuts per 10 s. The meme inserts are borrowed images, not drawn.",
+      "borrow": "One relatable metaphor (the slot machine) carries the whole joke. Draw your own gags; never paste meme images."
     },
     {
       "slug": "maxalexweber-459784",
       "tone": "chaotic",
       "quote": "Make a ODATANO edit that goes hard",
-      "borrow": "The fan-edit format: hard beat cuts, flash frames, speed ramps, the product as the subject of the edit."
+      "seen": "A typed \"> connecting enterpri_\" holds for 1.5 s before anything happens, then a glitch flash and hyperspace streaks. One name per beat with a huge index number behind it, white-out glitches between, ending on logo and URL.",
+      "borrow": "The fan-edit format: one name per beat, a big index number behind, a flash between. Start the energy at frame 0, not at 1.5 s."
     },
     {
       "slug": "robvjourney-237474",
       "tone": "chaotic",
       "quote": "Go ALL OUT and make the most badass video you possibly can",
-      "borrow": "Fifteen seconds of a live site at maximum energy. Pair this energy with the site's real copy and visuals or it turns generic."
-    },
-    {
-      "slug": "kamstudiolabs-100086",
-      "tone": "deadpan",
-      "quote": "a 45-second silent short film with no dialogue, where sound tells half the story",
-      "borrow": "Let sound land the jokes so the picture can stay still and straight-faced."
+      "seen": "A terminal boot sequence (\"$ nohandslabs --boot\", lines of [ok], \"no hands required\") by 1.5 s, an acid-green flash, the site's own line \"Companies that build themselves\", \"95% built by AI\" in dot-matrix type, a diagonal ticker tape, ending on a waitlist button. 15 s.",
+      "borrow": "Turn the product's own copy into a boot sequence. Maximum energy works when every line is the site's real claim."
     },
     {
       "slug": "nikolajankovic-616097",
       "tone": "deadpan",
       "quote": "you're defi saver and explaining yourself in 1st person",
-      "borrow": "The product narrates itself, earnestly, in first person. Hand-drawn stop-motion keeps it humble."
+      "seen": "Runs at 12 frames per second, so it reads as real stop-motion. Pencil sketches of the loan numbers, a 3 a.m. price drop, a ratio thermometer; a taped paper strip at the bottom carries the first-person narration. Ends \"Been doing this since 2019. Mostly at night.\"",
+      "borrow": "Let the product narrate itself, earnestly, in one strip of text. A lower frame rate sells a hand-made look."
     },
     {
       "slug": "kamstudiolabs-877996",
       "tone": "deadpan",
       "quote": "a bug that doesn't want to be fixed",
-      "borrow": "A one-line absurd premise played completely straight. The humor is in the premise, never in the delivery."
+      "seen": "A glowing bug hides in lines of code and dodges a giant cursor; the punchline is a final status card: \"WON'T FIX\". It runs 90 s.",
+      "borrow": "End on a dry, literal label as the punchline. Play the absurd premise completely straight."
     },
     {
       "slug": "gdgtify-929495",
       "tone": "deadpan",
       "quote": "Words have assigned architectural roles.",
-      "borrow": "Text-forward done right: one line at a time, the type itself becomes the set, and the final line stands on what earlier words built. Good for copy-driven products."
+      "seen": "\"WAIT\" is huge from frame 0 with a small serif line under it. One line at a time, the words become the structure: WAITING hangs on cables, VOICE stands as columns, FLOOR is the platform. Loops back to WAIT. No sound.",
+      "borrow": "For copy-driven products, make the type the set. One line at a time, no illustrations."
+    },
+    {
+      "slug": "parkerrex-701462",
+      "tone": "deadpan",
+      "quote": "every frame a pure function of time so my renderer can screenshot it",
+      "seen": "One fixed diagram for 18 s; only its state changes (bucket level, counter, request log, step chart), and a one-line caption at the top names each phase. No sound, no hook drama.",
+      "borrow": "Hold the frame still and let only the numbers move. A plain caption line per phase is enough."
     },
     {
       "slug": "abhinayguptha-259981",
       "tone": "cinematic",
       "quote": "a 20-second title sequence for a Netflix thriller that doesn't exist yet",
-      "borrow": "Frame the product as a title sequence: credits-style type, slow reveals, one recurring motif."
+      "seen": "Black for half a second, then fingerprint contour lines fade up; credits in widely spaced serif, a map with a red route, a redacted case file stamped UNSOLVED, and a title drawn from the same lines. Mastered very loud (about -7 LUFS).",
+      "borrow": "One recurring motif from first frame to title. Bring the picture up faster than half a second, and mix to normal loudness."
     },
     {
       "slug": "1littlecoder-378066",
       "tone": "cinematic",
       "quote": "inspired by Apple 1984 ad, iykyk! avoid the border text or frames!",
-      "borrow": "Homage to a famous ad gives instant structure and stakes. Also: no border text or frames, a common AI giveaway."
+      "seen": "A dark tunnel fades in, a Big-Brother face on a cinema screen with short captions (\"ONE FEED.\"), an orange runner smashes the screen around 21 s, white-out, ends \"Great minds don't think alike.\" No border text or frames.",
+      "borrow": "Homage to one famous ad gives a structure people already know. Keep the product's line for the very end."
     },
     {
       "slug": "jake11moran-414633",
       "tone": "cinematic",
       "quote": "aim for half the speed you'd default to",
-      "borrow": "One continuous camera over one desktop, no hard cuts, 1.5-3s eased moves, motion blur and light grain. A spinning list that is texture, not text, then lands slowly on the one that matters."
+      "seen": "The opening line builds word by word over a painted wallpaper and is complete by 1.5 s. A spinning list lands on one item, windows pile onto a Mac desktop, the notch opens into the browser, ending on the name and \"launching soon\". No sound.",
+      "borrow": "Slow, eased camera moves over one desktop. A fast list that is texture, landing slowly on the line that matters."
     },
     {
       "slug": "johnsavage-ai-427263",
       "tone": "cinematic",
       "quote": "add film grain and CRT effect, make it mesmerizing",
-      "borrow": "A finishing layer (grain, CRT, halation) turns clean motion into a look. Apply it last, over everything, and keep text legible through it."
+      "seen": "The CRT is the idea, not a filter: the hook is a macro of RGB subpixels and a collapsing power-on scanline by 1.0 s, a channel label (\"CH 05.5\"), a head sliced into scanlines, the name with \"Look closer.\", and it ends back on the subpixels.",
+      "borrow": "Make the look part of the story (here, a TV switching on), not a layer on top."
     },
     {
       "slug": "advait-jayant-712107",
       "tone": "cinematic",
       "quote": "every frame and every sound written in code, no image or video models",
-      "borrow": "A manifesto built on one quoted line. All visuals and sound generated in code, which is exactly the /brag-slim setup."
+      "seen": "A red dot labelled \"STATUS: CONTAINED\" by 2 s, then the quoted line split into one huge condensed word per card, AI refusal messages stamped as a collage, a red card \"OWNED BY NO ONE. OPEN TO EVERYONE.\", ending on logo and the line.",
+      "borrow": "Split one sentence across cards, one huge word each, and let the last card land it."
     },
     {
-      "slug": "bilimfili1-459762",
+      "slug": "kmasiff-549880",
       "tone": "app-store",
-      "quote": "each feature stays on screen for at least 2.5 seconds",
-      "borrow": "Real recordings, not mocks; every number on screen comes from them; text kept clear of the TikTok/Instagram UI; each feature breaks out of the phone into the world around it."
+      "quote": "inspiration is yc videos and claude social videos",
+      "seen": "\"Stop bounces before you hit send.\" with the pain word struck through, complete by 1.0 s. Then one headline per scene beside a real-looking UI state (a score of 85/100, six result cards, a signup form catching a typo, a pricing checklist), ending on logo, URL and \"5 free checks a day - no signup\". 20 s, no hard cuts.",
+      "borrow": "Strike through the pain word in the hook. One headline and one UI state per scene; end on how to try it."
     },
     {
       "slug": "charlesmendez-476517",
       "tone": "app-store",
       "quote": "with an example of a user creating a chatgpt ads campaign, then connecting their metrics",
-      "borrow": "One user's journey chained end to end. Each step is a scene, and the chain itself shows the product's range."
+      "seen": "\"Your buyers now ask ChatGPT.\" stacked in huge type by 1.5 s, then each step as a headline on the left and a real-looking screen on the right (the answer, the journey, a voice agent, a phone follow-up, analytics). 57 s.",
+      "borrow": "Headline left, screen right, one step of one user's journey per scene. Cut the journey to 3-4 steps for 15-25 s."
     },
     {
-      "slug": "alex-prompter-997524",
+      "slug": "bilimfili1-459762",
       "tone": "app-store",
-      "quote": "The customer's problem, what I do, how it works in 3 steps, one proof point, and my name at the end",
-      "borrow": "A five-scene structure that fits any product with a clear job to do."
+      "quote": "each feature stays on screen for at least 2.5 seconds",
+      "seen": "Vertical. \"Let's see what's inside.\" with the app icon by 0.5 s. Each feature: a short title top-left, the phone screen, and the feature spilling out of the phone into a road below it. Ends on an App Store search bar with the app's name.",
+      "borrow": "Let each feature break out of the phone into the world. End on what the viewer types to find it."
     },
     {
       "slug": "felipemoller-936736",
       "tone": "app-store",
       "quote": "Quero que simule os gastos em estabelecimentos do dia a dia",
       "translation": "I want it to simulate spending at everyday places",
-      "borrow": "Simulate the product in its real-world setting (supermarket, gas station, restaurant) so each feature arrives as a moment from daily life. Vertical."
+      "seen": "Vertical. A round isometric diorama of a supermarket assembles by 1.0 s. Each place gets a diorama with the app's real input under it: a voice waveform, a receipt photo, a typed entry. Ends \"Gastou? Lancou.\" (\"Spent it? Logged it.\") with a button.",
+      "borrow": "One small scene per place the product is used, each paired with how you use it there."
     },
     {
       "slug": "deifosv-786581",
       "tone": "app-store",
       "quote": "showing live stats from the website, show that users can play on desktop and mobile and multiple themes",
-      "borrow": "Real stats plus platform and theme range as quick, clean cards."
+      "seen": "A live counter climbs from 0 to 5,699 \"GAMES PLAYED\" over real game footage, complete by 1.0 s. Then \"NO DOWNLOAD. NO INSTALL. NO SIGN-UP.\", a phone card, one court per city, ending on a \"PLAY FREE NOW\" button. About 7 cuts per 10 s.",
+      "borrow": "A live counter is an instant hook. Keep the real product running behind every card."
+    },
+    {
+      "slug": "alex-prompter-997524",
+      "tone": "app-store",
+      "quote": "The customer's problem, what I do, how it works in 3 steps, one proof point, and my name at the end",
+      "seen": "Follows the five-scene structure exactly (problem, what it is, three numbered steps, \"1,697+ subscribers.\", name), but opens by typing the prompt into a chat box, which is about the making, not the product. No sound.",
+      "borrow": "The five-scene structure fits any product with a clear job. Open on the problem, not on how the video was made."
     }
   ]
 }
